@@ -7,6 +7,7 @@ project(Advent2020 VERSION 1.0)
 # Request C++ 11 standard features
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 configure_file(include/Config.h.in
       "${CMAKE_CURRENT_SOURCE_DIR}/include/Config.h")
 
@@ -19,5 +20,5 @@ target_include_directories(Advent2020 PUBLIC
 # Set the output directory for executables
 set_target_properties(Advent2020
     PROPERTIES
-    RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
+    RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin/$<CONFIG>")
 

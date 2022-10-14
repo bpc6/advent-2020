@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "../../bin/debug/Advent2020"
+  "../../bin/debug/Advent2020.pdb"
   "CMakeFiles/Advent2020.dir/src/main.cpp.o"
-  "bin/Debug/Advent2020"
-  "bin/Debug/Advent2020.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
