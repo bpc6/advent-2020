@@ -1,3 +1,0 @@
-/home/bcovell/fun/advent-2020/CMakeFiles/rebuild_cache.dir
-/home/bcovell/fun/advent-2020/CMakeFiles/edit_cache.dir
-/home/bcovell/fun/advent-2020/CMakeFiles/Advent2020.dir

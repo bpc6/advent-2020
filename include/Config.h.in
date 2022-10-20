@@ -1,4 +1,0 @@
-#pragma once
-#define VERSION_MAJOR @Advent2020_VERSION_MAJOR@
-#define VERSION_MINOR @Advent2020_VERSION_MINOR@
-
